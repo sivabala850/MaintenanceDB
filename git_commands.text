@@ -1,0 +1,43 @@
+Youtube Reference - https://youtu.be/hTYsf6bdSJ8?si=c8jknDJ1xfSdou1j
+
+Git( Tool for version control ) - Local Repository
+===============================
+What is version control ?
+Used to keep track of code changes and Synchronise code.
+
+GitHub ( Host Repository )- global Repository
+==========================
+similar Host Repositories GitLab, and BitBucket.
+
+git clone https://github.com/sivabala850/MaintenanceDB.git
+
+code . -- to open VSC in Command Prompt
+git add sp.sql 
+git add . -- to add all untracked files
+git status 
+git commit -m "Add sp to repository"
+git commit -am "Add and Commit the untracked code"
+git push 
+git pull
+git reset --hard 32sdfas3sdf2a
+git reset --hard origin/master
+
+Merge Conflicts
+===============
+Merge conflicts arise when pulling code from host repository, that doesn't match with the code changes on the local repository
+
+<<<<<< HEAD
+a = 10; -- Local changes
+=============
+a= 100; -- Remote changes
+>>>>>> 32sdfas3sdf2a -- Conflicting Commit Hash
+
+Branching
+=========
+Head (*) represent the current repository your are working
+git branch
+git checkout -b "newbranch" -- create and switch to new branch
+git checkout master
+git merge newbranch  -- Name the brach to merge with master
+
+VSC is Community Driven Software
